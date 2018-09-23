@@ -2,7 +2,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ClassNameExample {
-    private static final String CLASS_NAME_REGEX = "^[CAP][0-9]{4}[GHIKML]$";
+    private static final String CLASS_NAME_REGEX = "^[CAP][\\d]{4}[GHIKML]$";
     private static Pattern pattern;
     private static Matcher matcher;
 
